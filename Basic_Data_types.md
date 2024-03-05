@@ -266,8 +266,6 @@ What will this code print?
 
 ---
 
-### Conlusion
-
 In this assignment, you have been asked to answer 10 multiple-choice questions. Please submit your answers on the Google Form provided.
 
 Good luck!
