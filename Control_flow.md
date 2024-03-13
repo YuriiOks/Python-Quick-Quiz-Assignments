@@ -432,31 +432,15 @@ else:
 - **C)** 
 
 ```python
-if year % 4 != 0:
-    if year % 100 == 0:
-        if year % 400 == 0:
-            print("Leap year")
-        else:
-            print("Not a leap year")
-    else:
-        print("Leap year")
-else:
-    print("Not a leap year")
+output = "Leap year" if year % 4 == 0 and year % 100 != 0 or year % 400 == 0 else "Not a leap year"
+print(output)
 ```
 
 - **D)** 
 
 ```python
-if year % 4 == 0:
-    if year % 100 != 0:
-        if year % 400 == 0:
-            print("Leap year")
-        else:
-            print("Not a leap year")
-    else:
-        print("Leap year")
-else:
-    print("Not a leap year")
+output = "Leap year" if year % 4 == 0 and year % 100 == 0 and year % 400 == 0 else "Not a leap year"
+print(output)
 ```
 
 - **E)** 
@@ -472,6 +456,7 @@ if year % 4 != 0:
         print("Leap year")
 else:
     print("Not a leap year")
+    
 ```
 
 ### Question 12 - Next Day Date Validation:
