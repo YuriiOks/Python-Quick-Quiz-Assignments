@@ -92,7 +92,7 @@ Given this code, which pair of three-digit numbers would produce the highest and
 - **B)** Highest: 999, Lowest: 111
 - **C)** Highest: 900, Lowest: 100
 - **D)** Highest: 999, Lowest: 990
-- **E)** Highest: 999, Lowest: 1
+- **E)** Highest: 27, Lowest: 1
 
 
 **Your Answer:** Enter your answer on the Google Form.
